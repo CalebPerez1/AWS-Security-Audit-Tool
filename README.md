@@ -106,19 +106,15 @@ python main.py --check mfa
 
 ---
 
----
-
 ## 🧠 Example Use Case
 
-> Imagine a small to mid-sized business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling.  
->  
-> They deploy this tool on a dedicated macOS machine and schedule it to run every 12 hours using LaunchAgents. It scans for risky IAM permissions, open security groups, public S3 buckets, and users without MFA.  
->  
-> The results are automatically pushed to a Slack channel and indexed into Splunk for visualization and correlation. With minimal setup and no ongoing cloud costs, the team now gets actionable alerts and centralized logging — all from one lightweight audit bot.
+Imagine a business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling. They deploy this tool on a dedicated macOS machine and schedule it to run every 12 hours using LaunchAgents.
+It scans for risky IAM permissions, open security groups, public S3 buckets, and users without MFA. The results are automatically pushed to a Slack channel and indexed into Splunk for visualization and correlation.
+With minimal setup and no ongoing cloud costs, the team now gets actionable alerts and audit logs.
 
 ---
 
-## Future Ideas
+## 💡 Future Ideas
 
 - 📧 Email alert support (SMTP integration)
 - 📊 Export results as CSV or JSON
@@ -130,7 +126,7 @@ python main.py --check mfa
 
 ---
 
-## Author
+## 👨🏾‍💻 Author
 
 Built by Caleb Oduro
 Information Systems Intern | Cybersecurity Student.  
@@ -145,5 +141,7 @@ This project was created as part of a personal portfolio to demonstrate:
 
 ---  
 
-## 🔗 Connect on
- [GitHub](https://github.com/CalebPerez1) or [LinkedIn](https://www.linkedin.com/caleb-perez-o) to follow the journey.
+## 🔗 Connect
+
+Follow the journey on  
+[GitHub](https://github.com/CalebPerez1)|[LinkedIn](https://www.linkedin.com/in/caleb-perez-o)
