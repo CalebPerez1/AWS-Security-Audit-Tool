@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/caleb/aws_security_audit_tool/main.py", line 40, in <module>
+    with open("audit.log", "a") as log_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system: 'audit.log'
+Traceback (most recent call last):
+  File "/Users/caleb/aws_security_audit_tool/main.py", line 40, in <module>
+    with open("audit.log", "a") as log_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system: 'audit.log'
+Traceback (most recent call last):
+  File "/Users/caleb/aws_security_audit_tool/main.py", line 40, in <module>
+    with open("audit.log", "a") as log_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system: 'audit.log'
+Traceback (most recent call last):
+  File "/Users/caleb/aws_security_audit_tool/main.py", line 40, in <module>
+    with open("audit.log", "a") as log_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system: 'audit.log'

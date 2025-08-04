@@ -1,0 +1,69 @@
+✅ Slack notification sent.
+📋 *AWS Security Audit Results*
+🕒 *Timestamp:* 2025-08-01 01:42 AM
+
+*--- IAM ---*
+✅ No issues found.
+
+*--- S3 ---*
+✅ No issues found.
+
+*--- SECURITY_GROUPS ---*
+✅ No issues found.
+
+*--- MFA ---*
+🛑 User 'audit-user' does NOT have MFA enabled.
+👉 To enable MFA:
+   - Sign in to the IAM console as an admin
+   - Visit: https://console.aws.amazon.com/iam/home#/users/audit-user?section=security_credentials
+   - Click "Assign MFA device"
+   - Choose "Virtual MFA device" (e.g., Google Authenticator, Authy)
+   - Follow the prompts to scan the QR code and complete setup
+
+
+✅ Slack notification sent.
+📋 *AWS Security Audit Results*
+🕒 *Timestamp:* 2025-08-01 01:43 AM
+
+*--- IAM ---*
+✅ No issues found.
+
+*--- S3 ---*
+✅ No issues found.
+
+*--- SECURITY_GROUPS ---*
+✅ No issues found.
+
+*--- MFA ---*
+🛑 User 'audit-user' does NOT have MFA enabled.
+👉 To enable MFA:
+   - Sign in to the IAM console as an admin
+   - Visit: https://console.aws.amazon.com/iam/home#/users/audit-user?section=security_credentials
+   - Click "Assign MFA device"
+   - Choose "Virtual MFA device" (e.g., Google Authenticator, Authy)
+   - Follow the prompts to scan the QR code and complete setup
+
+
+✅ Slack notification sent.
+📋 *AWS Security Audit Results*
+🕒 *Timestamp:* 2025-08-03 12:15 AM
+
+*--- IAM ---*
+✅ No issues found.
+
+*--- S3 ---*
+✅ No issues found.
+
+*--- SECURITY_GROUPS ---*
+✅ No issues found.
+
+*--- MFA ---*
+🛑 User 'audit-user' does NOT have MFA enabled.
+👉 To enable MFA:
+   - Sign in to the IAM console as an admin
+   - Visit: https://console.aws.amazon.com/iam/home#/users/audit-user?section=security_credentials
+   - Click "Assign MFA device"
+   - Choose "Virtual MFA device" (e.g., Google Authenticator, Authy)
+   - Follow the prompts to scan the QR code and complete setup
+
+
