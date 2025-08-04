@@ -104,44 +104,48 @@ python main.py --check s3
 python main.py --check sg
 python main.py --check mfa 
 
----
+
+
 
 ## 🧠 Example Use Case
 
-Imagine a business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling. They deploy this tool on a dedicated macOS machine and schedule it to run every 12 hours using LaunchAgents.
-It scans for risky IAM permissions, open security groups, public S3 buckets, and users without MFA. The results are automatically pushed to a Slack channel and indexed into Splunk for visualization and correlation.
-With minimal setup and no ongoing cloud costs, the team now gets actionable alerts and audit logs.
+Imagine a business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling.  
+They deploy this tool on a dedicated macOS machine and schedule it to run every 12 hours using LaunchAgents.  
+It scans for risky IAM permissions, open security groups, public S3 buckets, and users without MFA.  
+The results are automatically pushed to a Slack channel and indexed into Splunk for visualization and audit logs.  
+With minimal setup and no ongoing cloud costs, the team now gets actionable alerts and visibility.
 
 ---
 
 ## 💡 Future Ideas
 
-- 📧 Email alert support (SMTP integration)
-- 📊 Export results as CSV or JSON
-- 🌐 Build a lightweight Flask GUI for visual reports
-- 🔁 Add AWS Organizations multi-account support
-- 🔐 Detect overly permissive IAM roles (e.g., `iam:*`)
-- 📍 Geo-location insights for suspicious IPs (CloudTrail lookup)
+- 📧 Email alert support (SMTP integration)  
+- 📊 Export results as CSV or JSON  
+- 🧩 Build a lightweight Flask GUI for visual reports  
+- 🏢 Add AWS Organizations multi-account support  
+- 🔐 Detect overly permissive IAM roles (e.g., `iam:*`)  
+- 📍 Geo-location insights for suspicious IPs (CloudTrail lookup)  
 - ☁️ Support for Azure and GCP in the future
 
 ---
 
-## 👨🏾‍💻 Author
+## 👤 Author
 
-Built by Caleb Oduro
-Information Systems Intern | Cybersecurity Student.  
+Built by Caleb Oduro  
+Information Systems Intern | Cybersecurity Student.
 
 This project was created as part of a personal portfolio to demonstrate:
 
-- 🛠️ Hands-on AWS security experience  
+- 🛠 Hands-on AWS security experience  
 - 🧠 Familiarity with IAM, S3, and network policies  
 - 🔔 Slack alert integration  
 - 📈 Splunk logging and monitoring  
-- ⏱️ Automation via macOS schedulin
+- ⏰ Automation via macOS scheduling
 
----  
+---
 
 ## 🔗 Connect
 
 Follow the journey on  
-[GitHub](https://github.com/CalebPerez1)|[LinkedIn](https://www.linkedin.com/in/caleb-perez-o)
+[GitHub](https://github.com/CalebPerez1) • [LinkedIn](https://www.linkedin.com/in/caleb-perez-o)
+
