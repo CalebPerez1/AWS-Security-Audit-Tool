@@ -60,18 +60,16 @@ aws_security_audit_tool/
 - Splunk HEC Token (if using Splunk)
 
 Install dependencies:
-
-```bash
 pip install -r requirements.txt
 
+---
 
 ## ⚙️ Setup Instructions
 
 Follow these steps to configure and run the AWS Security Audit Tool on your system.
 
----
 
-### 1. ✅ Set Up AWS Credentials
+ 1. ✅ Set Up AWS Credentials
 
 Make sure you have the AWS CLI installed. Then run:
 
@@ -106,10 +104,9 @@ python main.py --check s3
 python main.py --check sg
 python main.py --check mfa 
 
-
 ---
 
-🧠 Example Use Case
+## 🧠 Example Use Case
 
 > Imagine a small to mid-sized business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling.  
 >  
@@ -119,7 +116,7 @@ python main.py --check mfa
 
 ---
 
-  Future Ideas
+## Future Ideas
 
 - 📧 Email alert support (SMTP integration)
 - 📊 Export results as CSV or JSON
@@ -131,7 +128,7 @@ python main.py --check mfa
 
 ---
 
- Author
+## Author
 
 Built by Caleb Oduro
 Information Systems Intern | Cybersecurity Student.  
@@ -142,6 +139,9 @@ This project was created as part of a personal portfolio to demonstrate:
 - 🧠 Familiarity with IAM, S3, and network policies  
 - 🔔 Slack alert integration  
 - 📈 Splunk logging and monitoring  
-- ⏱️ Automation via macOS scheduling  
+- ⏱️ Automation via macOS schedulin
 
-🔗 Connect on [GitHub](https://github.com/CalebPerez1) or [LinkedIn](https://www.linkedin.com/caleb-perez-o) to follow the journey.
+---  
+
+## 🔗 Connect on
+ [GitHub](https://github.com/CalebPerez1) or [LinkedIn](https://www.linkedin.com/caleb-perez-o) to follow the journey.
