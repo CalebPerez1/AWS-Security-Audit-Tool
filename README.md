@@ -106,6 +106,8 @@ python main.py --check mfa
 
 ---
 
+---
+
 ## 🧠 Example Use Case
 
 > Imagine a small to mid-sized business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling.  
