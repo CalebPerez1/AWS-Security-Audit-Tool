@@ -70,7 +70,7 @@ Follow these steps to configure and run the AWS Security Audit Tool on your syst
 - ✅ Set Up AWS Credentials
 Make sure you have the AWS CLI installed. Then run:
 aws configure
-- 📦 Install Dependencies
+- 📦 Install Dependencies:
 Ensure you’re inside your virtual environment (if using one), then install the required Python packages:
 pip install -r requirements.txt
 Dependencies include:
@@ -90,11 +90,7 @@ python main.py --check mfa
 
 ## 🧠 Example Use Case
 
-Imagine a business with an expanding AWS footprint. The security team wants daily visibility into potential risks without relying on expensive enterprise tooling.  
-They deploy this tool on a dedicated macOS machine and schedule it to run every 12 hours using LaunchAgents.  
-It scans for risky IAM permissions, open security groups, public S3 buckets, and users without MFA.  
-The results are automatically pushed to a Slack channel and indexed into Splunk for visualization and audit logs.  
-With minimal setup and no ongoing cloud costs, the team now gets actionable alerts and visibility.
+This tool can be used by DevOps or security teams in companies to quickly scan AWS environments for common misconfigurations. For instance, a company onboarding a new cloud account can run this audit to ensure IAM policies are scoped properly, MFA is enforced, and S3 buckets are not exposed publicly.
 
 ---
 
