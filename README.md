@@ -104,8 +104,7 @@ python main.py --check s3
 python main.py --check sg
 python main.py --check mfa 
 
-
-
+---
 
 ## 🧠 Example Use Case
 
@@ -149,3 +148,4 @@ This project was created as part of a personal portfolio to demonstrate:
 Follow the journey on  
 [GitHub](https://github.com/CalebPerez1) • [LinkedIn](https://www.linkedin.com/in/caleb-perez-o)
 
+---
