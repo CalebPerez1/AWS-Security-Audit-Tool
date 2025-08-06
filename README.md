@@ -67,36 +67,18 @@ pip install -r requirements.txt
 ## ⚙️ Setup Instructions
 
 Follow these steps to configure and run the AWS Security Audit Tool on your system.
-
-
-1. ✅ Set Up AWS Credentials
-
+- ✅ Set Up AWS Credentials
 Make sure you have the AWS CLI installed. Then run:
-
-```bash
 aws configure
-
-
-
-2. 📦 Install Dependencies
-
+- 📦 Install Dependencies
 Ensure you’re inside your virtual environment (if using one), then install the required Python packages:
 pip install -r requirements.txt
-
 Dependencies include:
 	•	boto3 – AWS SDK for Python
 	•	requests – for Slack and Splunk HTTP requests
-
-
-
-3. 🔗 Configure Slack Webhook
-
+- 🔗 Configure Slack Webhook
 In main.py, replace the placeholder webhook with your actual Slack Incoming Webhook URL:slack_webhook_url = "https://hooks.slack.com/services/your/webhook/url"
-
-
-
-4. 📄 Run the Tool
-
+- 📄 Run the Tool
 To run all checks and send the results to Slack and/or Splunk: python main.py
 To run a specific check only:
 python main.py --check iam
@@ -147,5 +129,3 @@ This project was created as part of a personal portfolio to demonstrate:
 
 Follow the journey on  
 [GitHub](https://github.com/CalebPerez1) • [LinkedIn](https://www.linkedin.com/in/caleb-perez-o)
-
----
