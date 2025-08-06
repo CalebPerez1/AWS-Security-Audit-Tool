@@ -69,7 +69,7 @@ pip install -r requirements.txt
 Follow these steps to configure and run the AWS Security Audit Tool on your system.
 
 
- 1. ✅ Set Up AWS Credentials
+1. ✅ Set Up AWS Credentials
 
 Make sure you have the AWS CLI installed. Then run:
 
